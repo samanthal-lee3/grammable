@@ -1,6 +1,8 @@
 require 'rails_helper'
-RSpec.describe GramsHelper, type: :helper do
 
+
+RSpec.describe GramsHelper, type: :helper do
+  
 # Specs in this file have access to a helper object that includes
 # the GramsHelper. For example:
 #
@@ -12,3 +14,4 @@ RSpec.describe GramsHelper, type: :helper do
 #   end
 # end
 end
+
