@@ -33,7 +33,10 @@ require 'rails_helper'
           end
 
           it "should successfully create a new gram in our database" do
-            @gram = current_user 
+            
+            user = User.create(email: 'test@test.com', password: "password", password_confirmation: "password")
+            sign_in user
+            
             post :create, params: {gram: {message: 'Hello!'}}
             expect(response).to redirect_to root_path 
 

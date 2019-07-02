@@ -10,11 +10,6 @@ class GramsController < ApplicationController
     @gram = Gram.new
   end
 
-  # def create
-  #   @gram = Gram.create(gram_params)
-  #   redirect_to root_path
-  # end
-
    def create
         @gram = current_user.grams.create(gram_params)
         if @gram.valid?
