@@ -28,19 +28,19 @@ require 'rails_helper'
 
           it "should require a user to be logged on" do
             post :create, params: {gram: {message: 'Hello!'}}
-            expect(response).to redirect_to user_session_path
+          #expect(response).to redirect_to user_session_path
+          expect(response).to redirect_to new_user_session_path
           end
 
-          # it "should successfully create a new gram in our database" do
-          #   user = current_user
+          it "should successfully create a new gram in our database" do
+            @gram = current_user 
+            post :create, params: {gram: {message: 'Hello!'}}
+            expect(response).to redirect_to root_path 
 
-          #   post :create, params: {gram: {message: 'Hello!'}}
-          #   expect(response).to redirect_to root_path 
-
-          #    gram = Gram.last
-          #    expect(gram.message).to eq("Hello!")
-          #    expect(gram.user).to eq(user)
-          #  end
+            gram = Gram.last
+            expect(gram.message).to eq("Hello!")
+            expect(gram.user).to eq(user)
+          end
       end
 
 end
