@@ -31,8 +31,15 @@ class GramsController < ApplicationController
 
   def update
     @gram = Gram.find_by_id(params[:id])
+    return render_not_found if @gram.blank?
+
     @gram.update_attributes(gram_params)
-    redirect_to root_path
+
+    if @gram.valid?
+      redirect_to root_path
+    else
+      return render :edit, status: :unprocessable_entity
+    end
   end
 
 
