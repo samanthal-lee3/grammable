@@ -26,6 +26,9 @@ class GramsController < ApplicationController
     end
   end
 
+  def edit
+  end
+
 
 
   private
