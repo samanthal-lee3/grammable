@@ -29,6 +29,13 @@ class GramsController < ApplicationController
     return render_not_found if @gram.blank?
   end
 
+  def update
+    @gram = Gram.find_by_id(params[:id])
+    @gram.update_attributes(gram_params)
+    redirect_to root_path
+  end
+
+
 
 
   private
