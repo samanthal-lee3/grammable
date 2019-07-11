@@ -1,3 +1,31 @@
 @import "bootstrap";
 
 
+body {
+  background-color: #fafafa;
+}
+
+.top-nav {
+  background-color: white;
+  border-bottom-color: #edeeee;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  height: 70px;
+  padding-topc: 15px;
+}
+
+.brand {
+  color: #125688;
+  font-size: 30px;
+}
+
+.top-nav .add a{
+  font-weight: bold;
+  color: #125688;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.top-nav .add {
+  margin-top: 10px;
+}
