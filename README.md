@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Grammable:
 
-Things you may want to cover:
+This instagram clone app was created using Test Driven Development best practices with Ruby on Rails. The application sets validations on user uploaded data and restricts access to logged in/current users. Images are hosted using AWS Amazon S3 services. 
 
-* Ruby version
+Built With:
 
-* System dependencies
+* Ruby version: 2.6.3
 
-* Configuration
+Deployment:
 
-* Database creation
+* Testing the App:
+  User Name: webdevtester11845@gmail.com
+  Password: test1234
 
-* Database initialization
+* Deployed on Heroku
 
-* How to run the test suite
+  Test app using Heroku: 
+  https://grammable-samantha-lee.herokuapp.com/
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
