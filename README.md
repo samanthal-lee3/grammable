@@ -24,7 +24,7 @@ https://grammable-samantha-lee.herokuapp.com/
 ![Application Log In Page](https://user-images.githubusercontent.com/49353329/63212464-fb1a9800-c0d2-11e9-9d0b-0a28147b9555.JPG)
 
 
-#Application Details:
+## Application Details:
 
 * Ruby version: 2.6.3
 
