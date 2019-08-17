@@ -15,7 +15,11 @@ https://grammable-samantha-lee.herokuapp.com/
 
 ## Views:
 
+### Application Home Page View
+
 ![Application Home Page](https://user-images.githubusercontent.com/49353329/63212453-dd4d3300-c0d2-11e9-8bc0-8a19443bde5f.JPG)
+
+### Application Log In Page View
 
 ![Application Log In Page](https://user-images.githubusercontent.com/49353329/63212464-fb1a9800-c0d2-11e9-9d0b-0a28147b9555.JPG)
 
