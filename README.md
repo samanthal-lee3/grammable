@@ -26,7 +26,7 @@ https://grammable-samantha-lee.herokuapp.com/
 
 ## Application Details:
 
-* Ruby version: 2.6.3
+* Ruby version: 2.5.3
 
 * Built using: Ruby on Rails, JavaScript, HTML5, CSS
 
